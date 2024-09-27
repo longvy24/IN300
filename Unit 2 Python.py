@@ -19,7 +19,7 @@ else:
     
 """ 
 
-"""Items 4-6"""
+"""Items 4-6
 
 print("**********************************")
 print("*    1. Science Fiction          *")
@@ -49,4 +49,9 @@ while choice != 6:
             print("Exit Program")
     else:
             print("ERROR! Please enter a valid choice. (1-6)")
+
+"""
+
+
+"""Item 8"""
 

@@ -2,6 +2,7 @@
 // Unit 1 Java
 
 import java.util.Scanner; // Import the Scanner class
+
 /* Items 1-3
 public  class Unit2Java {
         public static void main(String[] args) {
@@ -44,7 +45,7 @@ public  class Unit2Java {
 
 
 
-/* Items 4-6 */
+/* Items 4-6 
 public  class Unit2Java {
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
@@ -103,4 +104,29 @@ while (choice != 6){
     scanner.close();
 }
 
+}
+
+*/
+
+/*Item 7 */
+
+public  class Unit2Java {
+    public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.print("Please enter a number value: ");
+    int num = scanner.nextInt();
+
+    for(int i = 1; i<=num; i++){
+        System.out.print("Outer Loop Value: " + i + "\n");
+        System.out.print("Inner Loop Value: ");
+
+        for(int j = 1; j<= num / 2; j++){
+            System.out.print (j + " ");
+        }
+        System.out.println();
+    }
+
+    scanner.close();
+}
 }
