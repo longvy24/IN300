@@ -59,3 +59,13 @@
 
 # Item 9
 
+num <- as.integer(readline(prompt = "Please Enter a Number: "))
+for(i in 1:num){
+    cat("Outer Loop Value:", i, "\n")
+    cat("Inner Loop Value: ")
+for (j in 1:(num / 2)){
+ cat(j, "")
+ }
+ cat("\n")
+}
+

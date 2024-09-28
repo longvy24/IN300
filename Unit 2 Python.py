@@ -55,3 +55,14 @@ while choice != 6:
 
 """Item 8"""
 
+num = int(input("Please enter a number: "))
+
+for i in range(1, num + 1):  
+    print(f"Outer Loop Value: {i}")
+    print("Inner Loop Value:", end=" ")  
+
+    for j in range(1, num // 2 + 1): 
+        print(j, end=" ") 
+    print()  
+
+

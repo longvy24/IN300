@@ -46,6 +46,8 @@ public  class Unit2Java {
 
 
 /* Items 4-6 
+
+import java.util.Scanner;
 public  class Unit2Java {
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
@@ -114,7 +116,7 @@ public  class Unit2Java {
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
-    System.out.print("Please enter a number value: ");
+    System.out.print("Please enter a number: ");
     int num = scanner.nextInt();
 
     for(int i = 1; i<=num; i++){
